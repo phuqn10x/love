@@ -264,7 +264,7 @@ body,button {
 .flowtime h1,.flowtime h2,.flowtime h3,.flowtime h4,.flowtime h5,.flowtime h6 {
 	font-weight:bold;
 	color:#ff10a8;
-	padding-top:1em
+	/*padding-top:1em*/
 }
 .flowtime h1 {
 	font-size:4rem;
@@ -805,14 +805,18 @@ body,button {
 	background:#fb99b4   bottom repeat-x;
 	padding:0
 }
+.page-28 .flex {
+	height: 80%;
+}
 .page-28 img {
 	/*position:absolute;*/
 	/*bottom:0;*/
 	/*left:3em*/
+	/*height: 80%;*/
 }
 .page-28 h3 {
 	font-size: 2rem;
-	position: absolute;
+	/*position: absolute;*/
 	z-index: 2;
 	width: 100%;
 	text-align: center;
@@ -865,8 +869,13 @@ body,button {
 	background:#fff url(img/iali8_bg.png) left bottom repeat-x;
 	padding:0
 }
+.page-35 .flex , .page-37 .flex {
+	height: unset;
+	align-items: center;
+}
 .page-35 img {
-	position:absolute;
+	width: 25%;
+	/*position:absolute;*/
 	bottom:0;
 	left:0;
 	z-index:1
@@ -884,26 +893,39 @@ body,button {
 	right:1.5em;
 	color:#eee
 }
+
+.page-37 img {
+	width: 50%;
+}
 .page-37 {
 	background-color:#fff
 }
 .page-38 {
 	background-color:#fff8f2
 }
+.page-38 .flex {
+	height: 60%;
+}
 .page-39 {
 	background:#e8ccc1 url(img/iali2_bg.jpg) repeat
+}
+.page-39 .flex{
+	height: 80%;
 }
 .page-40 {
 	background-color:#cde7f4
 }
+.page-40 .flex {
+	height: 60%;
+}
 .page-40 img {
-	position:absolute;
+	/*position:absolute;*/
 	bottom:1em;
 	left:1em;
 	z-index:1
 }
 .page-40 h3 {
-	position:absolute;
+	/*position:absolute;*/
 	top:1em;
 	right:1em;
 	z-index:2
@@ -912,13 +934,13 @@ body,button {
 	background-color:#5aaadc;
 	padding:0
 }
-.page-41 .img2,.page-41 .img1 {
-	position:absolute
-}
-.page-41 .img1 {
-	left:1em;
-	bottom:1em
-}
+/*.page-41 .img2,.page-41 .img1 {*/
+/*	position:absolute*/
+/*}*/
+/*.page-41 .img1 {*/
+/*	left:1em;*/
+/*	bottom:1em*/
+/*}*/
 .page-41 .img2 {
 	right:1em;
 	top:1em
@@ -926,7 +948,7 @@ body,button {
 .page-41 h3 {
 	padding:0;
 	position:absolute;
-	top:35%;
+	top:3%;
 	width:100%;
 	text-align:center
 }
