@@ -860,10 +860,10 @@ body,button {
 	color:#a58545
 }
 .page-34 {
-	background:#94c2e3 url(img/iali57.jpg) left bottom no-repeat
+	/*background:#94c2e3 url(img/iali57.jpg) left bottom no-repeat*/
 }
 .page-34 h3 {
-	color:#fff
+	/*color:#fff*/
 }
 .page-35 {
 	background:#fff url(img/iali8_bg.png) left bottom repeat-x;
@@ -881,7 +881,7 @@ body,button {
 	z-index:1
 }
 .page-35 h3 {
-	position:absolute;
+	position: unset ;
 	right:10%;
 	top:5%;
 	color:green;
@@ -891,7 +891,7 @@ body,button {
 .page-36 h3 {
 	text-align:right;
 	right:1.5em;
-	color:#eee
+	color:#31ff00
 }
 
 .page-37 img {
@@ -952,11 +952,14 @@ body,button {
 	width:100%;
 	text-align:center
 }
+.page-42 .flex {
+	height: 80%;
+}
 .page-42 {
 	background-color:#c1c567
 }
 .page-42 img {
-	position:absolute;
+	/*position:absolute;*/
 	bottom:2em;
 	left:1em
 }
@@ -966,8 +969,11 @@ body,button {
 .page-43 {
 	background-color:#6b79ad
 }
+.page-43 .flex{
+	height: 80%;
+}
 .page-43 img {
-	max-height:80%
+	/*max-height:80%*/
 }
 .page-43 h2 {
 	color:#fff
@@ -984,7 +990,7 @@ body,button {
 .page-46 h3 {
 	position:absolute;
 	top:1em;
-	left:50%;
+	left:46%;
 	margin-left:-40%;
 	padding:0;
 	margin-top:0;
@@ -993,26 +999,26 @@ body,button {
 }
 .page-46 h3 span {
 	display:inline-block;
-	width:1em;
+	/*width:1em;*/
 	vertical-align:top
 }
 .page-47 {
 	background-color:#fdcbca
 }
 .page-47 h3 {
-	position:absolute;
-	top:1em;
-	left:50%;
-	margin-left:-40%;
-	padding:0;
-	margin-top:0;
-	width:10em;
+	/*position:absolute;*/
+	/*top:1em;*/
+	/*left:50%;*/
+	/*margin-left:-40%;*/
+	padding:20px;
+	/*margin:20px;*/
+	/*width:10em;*/
 	text-align:left
 }
 .page-47 h3 span {
-	display:inline-block;
-	width:1em;
-	vertical-align:top
+	/*display:inline-block;*/
+	/*width:1em;*/
+	/*vertical-align:top*/
 }
 .page-48 {
 	background-color:#e3e2e7
@@ -1021,6 +1027,9 @@ body,button {
 	background-color:#fce6b6;
 	text-align:left
 }
+.page-49 .flex{
+	height: 80%;
+}
 .page-49 img {
 	margin:0
 }
@@ -1028,13 +1037,16 @@ body,button {
 	background-color:#aae1f6;
 	padding:0
 }
+.page-50 .flex{
+	height: 54%;
+}
 .page-50 .img1 {
-	position:absolute;
+	/*position:absolute;*/
 	right:0;
 	top:0
 }
 .page-50 .img2 {
-	position:absolute;
+	/*position:absolute;*/
 	left:1em;
 	bottom:1em
 }
